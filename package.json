@@ -1,0 +1,25 @@
+{
+  "name": "BasicScaling",
+  "description": "Basic example of horizontal scaling",
+  "homepage": "http://www.mathieudecoene.be",
+  "author": {
+    "name": "Mathieu Decoene",
+    "email": "hello@mathieudecoene.be"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Coenego/BasicScaling.git"
+  },
+  "licenses": [
+    {
+      "type": "Apache-2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ],
+  "dependencies": {
+    "express": "latest"
+  },
+  "engines": {
+    "node": ">=0.10"
+  }
+}
