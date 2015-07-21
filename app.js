@@ -15,12 +15,12 @@ var createServer = function() {
 
     // Create a REST endpoint
     app.get('/', function(req, res) {
-        res.status(200).send('Served by http://127.0.0.1:' + port);
+        res.status(200).send('Served by https://127.0.0.1:' + port);
     });
 
     // Start listening for connections
     var server = app.listen(port, function() {
-        console.log('Example app listening at http://127.0.0.1:%s', port);
+        console.log('Example app listening at https://127.0.0.1:%s', port);
     });
 };
 
